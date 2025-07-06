@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Rancho - Control de Consumo</title>
+    
+    <!-- Metadatos para PWA -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Mi Rancho">
+    <meta name="apple-mobile-web-app-title" content="Mi Rancho">
+    <meta name="theme-color" content="#4361ee">
+    <meta name="msapplication-navbutton-color" content="#4361ee">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="./?pwa=true">
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/icons/icon-152x152.png">
+</head>
+<body>
+    <div class="credits">Generado por OSCAR SANCHEZ C</div>
+    
+    <button id="installBtn" class="install-btn">Instalar App</button>
+    
+    <div class="container">
+        <h1>🍽 Mi Rancho - Control de Consumo</h1>
+        
+        <!-- Contenido de la aplicación se carga dinámicamente -->
+        <div id="app-content"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/db.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
